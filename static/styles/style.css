@@ -1,0 +1,40 @@
+.original_img{
+position:relative;
+left:400px
+
+}
+
+
+.main_page{
+position:relative;
+left:1050px;
+top:510px;
+
+}
+
+.title{
+
+position:relative;
+left:900px;
+top:500px;
+
+}
+
+
+a.button {
+    padding: 1px 6px;
+    border: 6px outset buttonborder;
+    border-radius: 25px;
+    color: buttontext;
+    background-color: buttonface;
+    text-decoration: none;
+    position:relative;
+    left:550px;
+    top:10px;
+
+}
+
+.main_title{
+font-size:70px;
+color:red
+}

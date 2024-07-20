@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HEX COLOURS</title>
+    {{ bootstrap.load_css() }}
+    <link rel="stylesheet" href="static/styles/style.css"/>
+</head>
+<body>
+<div class="container">
+<img class="original_img" src="{{ img_path }}" width="500" height="400"/>
+<h1>HEX Colour Palette:</h1>
+{% for hex in hex_codes %}
+    <h1 class="hex_colours" style="background-color:{{ hex }};">{{hex}}</h1>
+{% endfor %}
+    <a class="button" href="{{url_for('home_page')}}">Return to Home Page</a>
+    </div>
+</body>
+{{ bootstrap.load_js() }}
+</html>

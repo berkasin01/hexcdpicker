@@ -2,12 +2,27 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>HEX EXTRACT</title>
+        {{ bootstrap.load_css() }}
+    <link rel="stylesheet" href="static/styles/style.css"/>
+
 </head>
 <body>
+<div class="title">
+    <h1 class="main_title">HEX Colour Palette Extractor</h1>
+    <h2 class="main_title">Please Upload Your Image Below</h2>
+</div>
+<div class="main_page">
     <form method=post enctype=multipart/form-data>
       <input type=file name=file>
       <input type=submit value=Upload>
     </form>
+    </div>
+
 </body>
+<style>
+body {
+  background-image: url('static/websitebackground.jpg');
+}
+</style>
 </html>
